@@ -38,7 +38,7 @@ header>* {
 }
 
 header nav {
-    top: 8%;
+    top: 12%;
     left: 10%;
 }
 
@@ -51,33 +51,34 @@ header nav ul li {
 header nav ul li a {
     display: block;
     padding: 1px 5px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    border: 1px solid grey;
-    transition: 0.3s;
+    /* border: 1px solid grey; */
+    /* transition: 0.3s; */
 }
 
 header nav ul li a:hover {
-    background-color: white;
-    border: 1px solid white;
-    font-size: 1.3rem;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ffd700;;
 }
 
 header img {
     float: left;
-    top: 8%;
+    top: 12%;
     left: 54.4%;
     transform: translate(-50%, -50%);
 }
 
 header p.email {
     float: left;
-    top: 8%;
+    top: 12%;
     right: 10%;
     font-size: 1.5rem;
     font-weight: 300;
@@ -92,12 +93,14 @@ header div.introduce {
 }
 
 header div.introduce h1 {
+    text-shadow: 5px 5px 5px  black;
     text-align: center;
     font-size: 6rem;
     padding-top: 50px;
 }
 
 header div.introduce h2 {
+    text-shadow: 5px 5px 5px  black;
     font-size: 2.5rem;
     padding-top: 52px;
     padding-left: 10%;
@@ -105,6 +108,7 @@ header div.introduce h2 {
 }
 
 header div.introduce p {
+    text-shadow: 5px 5px 5px  black;
     text-align: justify;
     font-size: 2.5rem;
     padding-left: 10%;
@@ -219,12 +223,12 @@ section.services h1 {
     top: 15%;
     left: 15%;
 }
-.services .item div.title:hover div p:nth-of-type(2) {
+.services .item div.title:hover div li:nth-of-type(2) {
     position: absolute;
     top: 30%;
     left: 20%;
 }
-.services .item div.title:hover div p:nth-of-type(3) {
+.services .item div.title:hover div li:nth-of-type(3) {
     position: absolute;
     top: 45%;
     left: 25%;
